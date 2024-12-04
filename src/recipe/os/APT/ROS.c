@@ -12,7 +12,7 @@
  */
 static Source_t os_ros_sources[] =
 {
-  {&UpstreamProvider,  NULL},
+  {&UpstreamProvider, "http://packages.ros.org"},
   {&Ali,              "https://mirrors.aliyun.com"},
   {&Bfsu,             "https://mirrors.bfsu.edu.cn"},
   {&Ustc,             "https://mirrors.ustc.edu.cn"},
